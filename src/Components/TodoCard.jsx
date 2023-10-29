@@ -31,7 +31,7 @@ function TodoCard() {
               type="text"
               name="todo"
               id="todo"
-              className="border border-gray-300 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+              className=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400"
               placeholder="Add a task"
               required
             />
@@ -45,7 +45,7 @@ function TodoCard() {
           </button>
         </div>
       </div>
-      <div class="border rounded-lg shadow dark:border-gray-700 w-4/6 flex flex-col justify-evenly items-center shadow-2xl my-8">
+      <div class="border rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-4/6 flex flex-col justify-evenly items-center shadow-2xl my-8">
         <h4 class="my-3">List of Tasks</h4>
         <div class="my-6 text-lg w-64 mx-4">
           {todo?.length > 0 ? (
