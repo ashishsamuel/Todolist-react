@@ -51,7 +51,7 @@ function TodoCard() {
         <div class="my-6 text-lg w-64 mx-4" style={{backgroundColor:'aliceblue'}}>
           {todo?.length > 0 ? (
             todo?.map((item, index) => (
-              <div style={{backgroundColor:'aliceblue'}} class="p-3 my-5 border border-gray-200 rounded-lg shadow dark:border-gray-700 flex flex-col justify-between items-center shadow-2xl">
+              <div style={{backgroundColor:'aliceblue'}} class="p-3 my-5 border border-gray-200 rounded-lg shadow dark:border-gray-700 flex flex-col justify-between items-center shadow-2xl" className="width-small">
                 <div style={{backgroundColor:'aliceblue'}}>
                   {item}
                   <button onClick={() => deleteTask(index)}>
