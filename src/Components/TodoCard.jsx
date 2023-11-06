@@ -45,7 +45,7 @@ function TodoCard() {
           </button>
         </div>
       </div>
-      <div class="border border-gray-200 rounded-lg shadow dark:border-gray-700 w-4/6 flex flex-col justify-evenly items-center shadow-2xl my-8">
+      <div class="border border-gray-200 rounded-lg shadow dark:border-gray-700 w-96 flex flex-col justify-evenly items-center shadow-2xl my-8">
         <h4 class="my-3">List of Tasks</h4>
         <div class="my-6 text-lg w-64 mx-4">
           {todo?.length > 0 ? (
