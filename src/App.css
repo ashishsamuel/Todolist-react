@@ -1,0 +1,15 @@
+.width-small{
+    width: 300px !important;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}    
+
+
+
+@media screen and (max-width:768px) {
+    .width-small{
+        width: 300px !important;
+        margin-bottom: 15px;
+        /* border-radius: 15px; */
+    }
+}
