@@ -48,7 +48,7 @@ function TodoCard() {
       </div>
       <div style={{backgroundColor:'aliceblue'}} class="border border-gray-200 rounded-lg shadow dark:border-gray-700 w-96 flex flex-col justify-evenly items-center shadow-2xl my-8" className="width-small">
         <h4 style={{backgroundColor:'aliceblue'}} class="my-3">List of Tasks</h4>
-        <div class="my-6 text-lg w-64 mx-4" style={{backgroundColor:'aliceblue'}}>
+        <div class="my-6 text-lg w-64" style={{backgroundColor:'aliceblue'}}>
           {todo?.length > 0 ? (
             todo?.map((item, index) => (
               <div style={{backgroundColor:'aliceblue'}} class="p-3 my-5 border border-gray-200 rounded-lg shadow dark:border-gray-700 flex flex-col justify-between items-center shadow-2xl" className="width-small">
